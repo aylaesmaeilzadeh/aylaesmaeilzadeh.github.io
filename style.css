@@ -1,4 +1,4 @@
-/* ===== Color palette ===== /
+/* ===== Color palette ===== */
 :root {
   --lavender: #e6d9ff;
   --lilac: #cbb7f5;
@@ -7,7 +7,7 @@
   --bg: #faf9fd;
 }
 
-/ ===== Global styles ===== /
+/* ===== Global styles ===== */
 body {
   margin: 0;
   font-family: "Inter", "Helvetica Neue", sans-serif;
@@ -25,7 +25,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/ ===== Navigation ===== /
+/* ===== Navigation ===== */
 nav {
   display: flex;
   justify-content: center;
@@ -38,14 +38,14 @@ nav a {
   font-weight: 500;
 }
 
-/ ===== Main layout ===== /
+/* ===== Main layout ===== */
 .container {
   max-width: 900px;
   margin: 80px auto;
   padding: 0 20px;
 }
 
-/ ===== Home page layout ===== */
+/* ===== Home page layout ===== */
 .home {
   display: flex;
   gap: 60px;
