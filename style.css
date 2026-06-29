@@ -1,0 +1,74 @@
+/* ===== Color palette ===== /
+:root {
+  --lavender: #e6d9ff;
+  --lilac: #cbb7f5;
+  --purple: #7b5fc6;
+  --soft-gray: #555;
+  --bg: #faf9fd;
+}
+
+/ ===== Global styles ===== /
+body {
+  margin: 0;
+  font-family: "Inter", "Helvetica Neue", sans-serif;
+  background-color: var(--bg);
+  color: var(--soft-gray);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: var(--purple);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/ ===== Navigation ===== /
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px;
+  background-color: var(--lavender);
+}
+
+nav a {
+  font-weight: 500;
+}
+
+/ ===== Main layout ===== /
+.container {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+/ ===== Home page layout ===== */
+.home {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 240px;
+  height: 240px;
+  border-radius: 16px;
+  object-fit: cover;
+  border: 4px solid var(--lilac);
+}
+
+.home-text h1 {
+  margin: 0;
+  font-size: 2.6rem;
+  color: var(--purple);
+}
+
+.section-title {
+  font-size: 2rem;
+  color: var(--purple);
+  margin-bottom: 20px;
+}
+
