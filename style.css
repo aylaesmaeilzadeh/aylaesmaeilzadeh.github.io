@@ -237,7 +237,6 @@ nav a {
 }
 
 .interest-card {
-  background-color: #f4edff;
   border-radius: 16px;
   padding: 25px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
@@ -258,12 +257,51 @@ nav a {
   margin-bottom: 0;
 }
 
+/* Different pastel colors for each card */
+
+.interest-card:nth-child(1) {
+  background-color: #f4edff; /* lavender */
+}
+
+.interest-card:nth-child(2) {
+  background-color: #fff0f5; /* pastel pink */
+}
+
+.interest-card:nth-child(3) {
+  background-color: #eef7ff; /* pastel blue */
+}
+
+.interest-card:nth-child(4) {
+  background-color: #f5fff0; /* pastel green */
+}
+
+.interest-card:nth-child(5) {
+  background-color: #fff9e8; /* pastel yellow */
+}
+
+.interest-card:nth-child(6) {
+  background-color: #eafaf1; /* mint */
+}
+
+.interest-card:nth-child(7) {
+  background-color: #ffeef8; /* soft rose */
+}
+
+.interest-card:nth-child(8) {
+  background-color: #eef5ff; /* pale periwinkle */
+}
+
+.interest-card:nth-child(9) {
+  background-color: #fdf0e6; /* peach */
+}
+
 .personal-note {
   margin-top: 50px;
   padding: 30px;
   background-color: var(--lavender);
   border-radius: 16px;
   text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 .personal-note h3 {
