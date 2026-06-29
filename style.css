@@ -183,4 +183,41 @@ nav a {
 
 }
 
+/* ===== Education Page ===== */
+
+.education-card {
+  background-color: white;
+  border-left: 6px solid var(--lilac);
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 35px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.degree-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: var(--purple);
+  font-size: 1.5rem;
+}
+
+.education-info {
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: var(--soft-gray);
+}
+
+.education-date {
+  font-style: italic;
+  color: #777;
+}
+
+.education-list {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.education-list li {
+  margin-bottom: 12px;
+}
 
