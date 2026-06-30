@@ -6,7 +6,6 @@
   --soft-gray: #555;
   --bg: #faf9fd;
 }
-
 /* ===== Global styles ===== */
 body {
   margin: 0;
@@ -15,16 +14,13 @@ body {
   color: var(--soft-gray);
   line-height: 1.6;
 }
-
 a {
   text-decoration: none;
   color: var(--purple);
 }
-
 a:hover {
   text-decoration: underline;
 }
-
 /* ===== Navigation ===== */
 nav {
   display: flex;
@@ -33,32 +29,27 @@ nav {
   padding: 20px;
   background-color: var(--lavender);
 }
-
 nav a {
   font-weight: 500;
 }
-
 /* ===== Main layout ===== */
 .container {
   max-width: 900px;
   margin: 80px auto;
   padding: 0 20px;
 }
-
 /* ===== Home page layout ===== */
 .home {
   display: flex;
   gap: 60px;
   align-items: flex-start;
 }
-
 .profile-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   min-width: 240px;
 }
-
 .profile-pic {
   width: 240px;
   height: 240px;
@@ -66,79 +57,65 @@ nav a {
   object-fit: cover;
   border: 4px solid var(--lilac);
 }
-
 .contact-box {
   margin-top: 25px;
   text-align: center;
 }
-
 .contact-box h3 {
   margin-bottom: 15px;
   font-size: 0.95rem;
   color: var(--soft-gray);
   font-weight: 600;
 }
-
 .social-icons {
   display: flex;
   justify-content: center;
   gap: 18px;
 }
-
 .social-icons a {
   color: #555;
   font-size: 1.7rem;
   transition: color 0.3s ease,
               transform 0.2s ease;
 }
-
 .social-icons a:hover {
   color: var(--purple);
   transform: translateY(-2px);
   text-decoration: none;
 }
-
 .home-text h1 {
   margin: 0;
   font-size: 2.6rem;
   color: var(--purple);
 }
-
 .subtitle {
   font-size: 1.1rem;
   margin-top: 8px;
   margin-bottom: 30px;
 }
-
 .section-title {
   font-size: 2rem;
   color: var(--purple);
   margin-bottom: 20px;
 }
-
 /* ===== Mobile layout ===== */
 @media (max-width: 768px) {
-
   .home {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-
   .home-text {
     margin-top: 20px;
   }
 }
-
 /* ===== Publication Page ===== */
-
 .subsection-title {
   color: var(--purple);
   margin-top: 50px;
   margin-bottom: 25px;
   font-size: 1.5rem;
 }
-
 .publication-item {
   display: flex;
   align-items: flex-start;
@@ -147,7 +124,6 @@ nav a {
   padding-bottom: 25px;
   border-bottom: 1px solid #e5e5e5;
 }
-
 .publication-image {
   width: 75px;
   height: 75px;
@@ -156,35 +132,26 @@ nav a {
   border: 2px solid var(--lilac);
   flex-shrink: 0;
 }
-
 .publication-text {
   flex: 1;
 }
-
 .publication-text p {
   margin: 0;
 }
-
 .publication-text em {
   color: #444;
 }
-
 .publication-text a {
   font-weight: 500;
 }
-
 @media (max-width: 768px) {
-
   .publication-item {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-
 }
-
 /* ===== Education Page ===== */
-
 .education-card {
   background-color: white;
   border-left: 6px solid var(--lilac);
@@ -193,108 +160,193 @@ nav a {
   margin-bottom: 50px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
-
 .degree-title {
   margin-top: 0;
   margin-bottom: 10px;
   color: var(--purple);
   font-size: 1.5rem;
 }
-
 .education-info {
   margin-top: 0;
   margin-bottom: 18px;
   color: var(--soft-gray);
 }
-
 .education-date {
   font-style: italic;
   color: #777;
 }
-
 .education-list {
   padding-left: 20px;
   margin: 0;
 }
-
 .education-list li {
   margin-bottom: 12px;
 }
-
 .concentration {
   font-size: 0.7em;
   font-weight: normal;
   font-style: italic;
 }
-
+/* ===== Projects Page ===== */
+.project-card {
+  background-color: white;
+  border-left: 6px solid var(--purple);
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.project-card.in-review {
+  border-left: 6px dashed var(--lilac);
+}
+.project-card.internship {
+  border-left: 6px solid var(--lilac);
+}
+.project-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--purple);
+  margin-bottom: 10px;
+}
+.project-body {
+  display: flex;
+  gap: 22px;
+  align-items: flex-start;
+}
+.project-figure {
+  width: 3cm;
+  height: 3cm;
+  flex-shrink: 0;
+  border: 1.5px dashed var(--lilac);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  line-height: 1.2;
+  color: var(--purple);
+  background-color: var(--bg);
+  text-align: center;
+  padding: 4px;
+  overflow: hidden;
+}
+.project-figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.project-content {
+  flex: 1;
+  min-width: 0;
+}
+.project-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+.project-title {
+  margin: 0;
+  color: var(--purple);
+  font-size: 1.4rem;
+}
+.status-tag {
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 999px;
+  white-space: nowrap;
+  margin-top: 4px;
+}
+.status-tag.published {
+  background-color: var(--purple);
+  color: #fff;
+}
+.status-tag.in-review-tag {
+  background-color: transparent;
+  border: 1px dashed var(--lilac);
+  color: var(--soft-gray);
+}
+.status-tag.internship-tag {
+  background-color: var(--lavender);
+  color: var(--soft-gray);
+}
+.project-content ul {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+.project-content li {
+  margin-bottom: 8px;
+}
+.project-content p {
+  margin: 10px 0;
+}
+.contribution strong {
+  color: var(--purple);
+}
+@media (max-width: 600px) {
+  .project-body {
+    flex-direction: column;
+  }
+}
 /* ===== Personal Interests Page ===== */
-
 .interests-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 25px;
   margin-top: 40px;
 }
-
 .interest-card {
   border-radius: 16px;
   padding: 25px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   transition: transform 0.2s ease;
 }
-
 .interest-card:hover {
   transform: translateY(-4px);
 }
-
 .interest-card h3 {
   margin-top: 0;
   color: var(--purple);
   font-size: 1.1rem;
 }
-
 .interest-card p {
   margin-bottom: 0;
 }
-
 /* Different pastel colors for each card */
-
 .interest-card:nth-child(1) {
   background-color: #f4edff; /* lavender */
 }
-
 .interest-card:nth-child(2) {
   background-color: #fff0f5; /* pastel pink */
 }
-
 .interest-card:nth-child(3) {
   background-color: #eef7ff; /* pastel blue */
 }
-
 .interest-card:nth-child(4) {
   background-color: #f5fff0; /* pastel green */
 }
-
 .interest-card:nth-child(5) {
   background-color: #fff9e8; /* pastel yellow */
 }
-
 .interest-card:nth-child(6) {
   background-color: #eafaf1; /* mint */
 }
-
 .interest-card:nth-child(7) {
   background-color: #ffeef8; /* soft rose */
 }
-
 .interest-card:nth-child(8) {
   background-color: #eef5ff; /* pale periwinkle */
 }
-
 .interest-card:nth-child(9) {
   background-color: #fdf0e6; /* peach */
 }
-
 .personal-note {
   margin-top: 50px;
   padding: 30px;
@@ -303,9 +355,7 @@ nav a {
   text-align: center;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
-
 .personal-note h3 {
   margin-top: 0;
   color: var(--purple);
 }
-
