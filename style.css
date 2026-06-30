@@ -381,3 +381,13 @@ nav a:hover {
   margin-top: 0;
   color: #222;
 }
+
+/* ===== Footer ===== */
+footer {
+  margin-top: 80px;
+  padding: 25px;
+  text-align: center;
+  background-color: var(--lavender);
+  color: var(--soft-gray);
+  font-size: 0.9rem;
+}
