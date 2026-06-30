@@ -125,8 +125,8 @@ nav a {
   border-bottom: 1px solid #e5e5e5;
 }
 .publication-image {
-  width: 75px;
-  height: 75px;
+  width: 113px;
+  height: 113px;
   object-fit: cover;
   border-radius: 10px;
   border: 2px solid var(--lilac);
