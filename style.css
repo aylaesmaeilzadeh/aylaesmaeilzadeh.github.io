@@ -197,7 +197,7 @@ nav a {
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 .project-card.in-review {
-  border-left: 6px solid var(--lilac);
+  border-left: 6px solid var(--purple);
 }
 .project-card.internship {
   border-left: 6px solid var(--lilac);
