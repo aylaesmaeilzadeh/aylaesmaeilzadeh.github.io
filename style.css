@@ -127,6 +127,56 @@ nav a:hover {
     margin-top: 20px;
   }
 }
+
+/* ===== Research Keywords ===== */
+
+.keywords-box {
+  margin-top: 40px;
+  padding: 24px 28px;
+  background: #fbf9ff;
+  border: 2px solid var(--lilac);
+  border-radius: 18px;
+}
+
+.keywords-box h3 {
+  margin-top: 0;
+  margin-bottom: 18px;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.keyword-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.keyword {
+  padding: 9px 16px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #444;
+  transition: transform 0.2s ease;
+}
+
+.keyword:hover {
+  transform: translateY(-2px);
+}
+
+/* Pastel colors */
+
+.keyword:nth-child(1) { background:#f4edff; }
+.keyword:nth-child(2) { background:#ffeef7; }
+.keyword:nth-child(3) { background:#eef7ff; }
+.keyword:nth-child(4) { background:#f2fff2; }
+.keyword:nth-child(5) { background:#fff8e8; }
+.keyword:nth-child(6) { background:#eaf8ff; }
+.keyword:nth-child(7) { background:#fceef8; }
+.keyword:nth-child(8) { background:#eef3ff; }
+.keyword:nth-child(9) { background:#edf9f2; }
+.keyword:nth-child(10){ background:#fff2e8; }
+
 /* ===== Publication Page ===== */
 .subsection-title {
   color: var(--purple);
