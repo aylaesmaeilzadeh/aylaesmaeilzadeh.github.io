@@ -129,13 +129,11 @@ nav a:hover {
 }
 
 /* ===== Research Keywords ===== */
-
 .keywords-box {
   margin: 60px auto 0;
   max-width: 850px;
   padding: 28px 32px;
   background: #fbf9ff;
-  border: 2px solid var(--lilac);
   border-radius: 18px;
   text-align: center;
 }
@@ -155,31 +153,31 @@ nav a:hover {
 }
 
 .keyword {
-    padding: 10px 18px;
-    border-radius: 999px;
-    font-size: 0.95rem;
-    font-weight: 500;
-    color: #444;
-    border: 1px solid rgba(123, 95, 198, 0.18);
-    transition: transform 0.2s ease;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #444;
+  transition: transform 0.2s ease;
 }
 
 .keyword:hover {
   transform: translateY(-2px);
 }
 
-/* Pastel keyword colors */
+/* Pastel colors */
 
-.keyword:nth-child(1)  { background: #e6d9ff; } /* lavender */
-.keyword:nth-child(2)  { background: #ffdceb; } /* pink */
-.keyword:nth-child(3)  { background: #dcefff; } /* blue */
-.keyword:nth-child(4)  { background: #e6f8df; } /* green */
-.keyword:nth-child(5)  { background: #fff2c9; } /* yellow */
-.keyword:nth-child(6)  { background: #dff5ea; } /* mint */
-.keyword:nth-child(7)  { background: #ffdceb; } /* rose */
-.keyword:nth-child(8)  { background: #dfe8ff; } /* periwinkle */
-.keyword:nth-child(9)  { background: #ffe4d1; } /* peach */
-.keyword:nth-child(10) { background: #ebe6ff; } /* violet */
+.keyword:nth-child(1)  { background: #e6d9ff; }
+.keyword:nth-child(2)  { background: #ffdceb; }
+.keyword:nth-child(3)  { background: #dcefff; }
+.keyword:nth-child(4)  { background: #e6f8df; }
+.keyword:nth-child(5)  { background: #fff2c9; }
+.keyword:nth-child(6)  { background: #dff5ea; }
+.keyword:nth-child(7)  { background: #ffdceb; }
+.keyword:nth-child(8)  { background: #dfe8ff; }
+.keyword:nth-child(9)  { background: #ffe4d1; }
+.keyword:nth-child(10) { background: #ebe6ff; }
+.keyword:nth-child(11) { background: #e8f4ff; }
 
 /* ===== Publication Page ===== */
 .subsection-title {
