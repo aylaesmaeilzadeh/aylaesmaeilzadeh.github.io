@@ -424,7 +424,7 @@ nav a:hover {
 .personal-note {
   margin-top: 50px;
   padding: 30px;
-  background-color: var(--lavender);
+  background-color: #fdfd96;
   border-radius: 16px;
   text-align: center;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
